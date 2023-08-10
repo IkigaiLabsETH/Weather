@@ -8,7 +8,7 @@ export async function GET(req: NextRequest) {
   let location = req.nextUrl.searchParams.get("location");
   if (!location) {
     const { city } = geolocation(req);
-    location = city || "San Francisco";
+    location = city || "Bordeaux";
   }
 
   const response = await getWeatherData(location);
