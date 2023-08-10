@@ -35,3 +35,4 @@ If you have access to Plugins, you can try this plugin out!
 
 To add your newly deployed Plugin to ChatGPT, follow the steps from [Try the Plugin](#try-the-plugin) above, but instead of clicking on "Install an unverified plugin", select "Develop your own plugin" instead. Note that you'll need access to develop ChatGPT Plugins to be able to do this.
 
+// https://www.weatherapi.com/docs/
