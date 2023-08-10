@@ -7,7 +7,7 @@ export const runtime = "edge";
 export default async function Page() {
   const parsedCity = headers().get("x-vercel-ip-city");
   const city =
-    !parsedCity || parsedCity === "null" ? "Rion-des-Landes" : parsedCity;
+    !parsedCity || parsedCity === "null" ? "Biarritz" : parsedCity;
   const data = await getWeatherData(city);
 
   return <PageData data={data} />;
