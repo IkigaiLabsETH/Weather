@@ -13,12 +13,12 @@ export async function generateMetadata({
   return {
     title: `${data.location.name} Weather Data - WeatherGPT`,
     description:
-      "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and server from Vercel's Edge Network.",
+      "WeatherGPT is a ChatGPT Plugin to get the weather of any given location.",
     twitter: {
       card: "summary_large_image",
       title: `${data.location.name} Weather Data - WeatherGPT`,
       description:
-        "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and server from Vercel's Edge Network.",
+        "WeatherGPT is a ChatGPT Plugin to get the weather of any given location.",
       creator: "@steventey",
     },
     themeColor: "#FFF",

@@ -6,17 +6,9 @@ export function PageData({ data }: { data: any }) {
   return (
     <>
       <main>
-        <a
-          target="_blank"
-          href="https://chatg.pt/weather"
-          rel="noreferrer"
-          className="pill"
-        >
-          Deploy your own to Vercel
-        </a>
         <h1>WeatherGPT</h1>
         <p className="description">
-          ChatGPT Plugin to get the weather of any given location
+          ChatGPT Plugin to get the weather forecast
         </p>
         <Illustration />
         <div className="meta">
